@@ -6,6 +6,7 @@ import Home from "./pages/Home.js";
 import Todo from "./pages/Todo.js";
 import Shop from "./pages/Shop.js";
 import Timer from "./pages/Timer.js";
+import Grades from "./pages/Grades.js";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/timer" element={<Timer />} />
           <Route path="/todo" element={<Todo />} />
+          <Route path="/grades" element={<Grades />} />
           <Route path="/shop" element={<Shop />} />
         </Routes>
       </div>
