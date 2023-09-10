@@ -15,6 +15,9 @@ export default function Navbar() {
                     <Link to="/todo">Todo</Link>
                 </li>
                 <li>
+                    <Link to="/grades">Grade Tracker</Link>
+                </li>
+                <li>
                     <Link to="/shop">Shop</Link>
                 </li>
                 <li>
