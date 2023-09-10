@@ -21,6 +21,7 @@ function App() {
           <Route path="/todo" element={<Todo />} />
           <Route path="/grades" element={<Grades />} />
           <Route path="/shop" element={<Shop />} />
+          <Route path="/grades" element={<Grades />} />
         </Routes>
       </div>
      </div> 
